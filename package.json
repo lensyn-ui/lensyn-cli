@@ -1,0 +1,32 @@
+{
+    "name": "lensyn-cli",
+    "version": "1.1.1",
+    "description": "lensyn theme command line tool",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lensyn-ui/lensyn-cli.git"
+    },
+    "keywords": [
+        "lensyn",
+        "cli",
+        "theme"
+    ],
+    "bin": {
+        "lensyn": "./bin/lensyn.js"
+    },
+    "bugs": {
+        "url": "https://github.com/lensyn-ui/lensyn-cli/issues"
+    },
+    "author": "fet@lensyn.com",
+    "license": "MIT",
+    "dependencies": {
+        "colors": "^1.1.2",
+        "commander": "^2.12.2",
+        "decompress": "^4.2.0",
+        "download": "^6.2.5"
+    }
+}
