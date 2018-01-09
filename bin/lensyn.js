@@ -2,7 +2,7 @@
 
 let commander = require("commander"),
     theme = require('..').init,
-    user = 'demingsu';
+    user = 'lensyn-ui';
 
 function versionName(name) {
     return name.split('@');
